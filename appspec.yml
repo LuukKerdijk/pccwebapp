@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /mywebsite.html
     destination: /var/www/html/
+  - source: /picture.jpg
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
